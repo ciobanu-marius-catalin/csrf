@@ -2,4 +2,4 @@
 
 $value =  time();
 
-setcookie("TestCookie", $value);
+setcookie("TestCookie", $value, ['samesite' => 'None']);
