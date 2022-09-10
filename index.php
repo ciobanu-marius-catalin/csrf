@@ -6,6 +6,7 @@
 </head>
 <body>
 Hello world
-<? print_r($_COOKIE)?>
+
+<?php print_r($_COOKIE)?>
 </body>
 </html>
